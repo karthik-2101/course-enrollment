@@ -35,6 +35,11 @@ def get_students():
     list_students = Student.query.all()
     return students_schema.dump(list_students), 200
 
+@main_bp.route('/getcourses', methods=['GET'])
+def get_courses():
+    list_courses = Course.query.all()
+    return courses_schema.dump(list_courses), 200
+
 @main_bp.route('/getcoursebystudent/<id>', methods=['GET'])
 def get_course_by_student(id):
     student_obj = Student.query.get(id)
