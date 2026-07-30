@@ -15,7 +15,6 @@ def add_student():
 
 @main_bp.route('/addcourse', methods=['POST'])
 def add_course():
-    # print("hii")
     data = request.get_json()
     new_course = Course(name=data['name'])
     db.session.add(new_course)
@@ -55,7 +54,6 @@ def get_student_by_course(id):
 @main_bp.route('/updatestudent/<id>', methods=['PUT'])
 def update_student(id):
     student_obj = Student.query.get(id)
-    print("Hiii>>>", student_obj)
     if student_obj:
         data = request.get_json()
         student_obj.name = data['name']
