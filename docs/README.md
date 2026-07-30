@@ -1,6 +1,6 @@
 # course-enrollment
 
-The course-enrollment project is a Python-based application, utilizing a range of frameworks including Flask, SQLAlchemy, and Marshmallow. With a layered architecture, this project is built to efficiently manage course enrollment processes. The project leverages GitHub Actions for continuous integration and deployment, ensuring streamlined development and testing. The application's dependencies are managed within a total count of 6, facilitating a structured and organized development environment.
+The course-enrollment project is a Python-based application utilizing a range of frameworks, including Flask, SQLAlchemy, and Marshmallow. With a layered architecture, this project leverages these frameworks to manage its components. The project's dependencies are managed with a total count of 6, and its continuous integration and deployment are handled through GitHub Actions. The use of Flask-SQLAlchemy and Flask-Migrate suggests a robust database management system.
 
 ## Features
 

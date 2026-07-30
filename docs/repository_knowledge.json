@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-30T07:28:05.571035+00:00",
+  "generated_at": "2026-07-30T12:20:23.139165+00:00",
   "metadata": {
     "name": "course-enrollment",
     "root_path": "/home/runner/work/course-enrollment/course-enrollment",
@@ -9,24 +9,24 @@
     "default_branch": "main",
     "current_branch": "main",
     "latest_commit": {
-      "sha": "5a42d966059227825c2ca61d070b2a4c4310930c",
-      "short_sha": "5a42d96",
-      "message": "ci: add auto-documentation workflow",
+      "sha": "ac91597459a0fe590a4e5ce1921a1aa3af3c5fd3",
+      "short_sha": "ac91597",
+      "message": "Merge pull request #1 from karthik-2101/feature/get-courses-endpoint",
       "author": "karthik-2101",
       "email": "karthik.e@mitrahsoft.in",
-      "date": "2026-07-30T12:56:51+05:30"
+      "date": "2026-07-30T17:50:06+05:30"
     },
     "tags": []
   },
   "statistics": {
-    "total_files": 10,
-    "total_size_bytes": 6668,
-    "total_directories": 3,
+    "total_files": 16,
+    "total_size_bytes": 15459,
+    "total_directories": 4,
     "files_by_category": {
       "ci_cd": 1,
-      "configuration": 1,
+      "configuration": 2,
       "source_code": 7,
-      "documentation": 1
+      "documentation": 6
     },
     "language_count": 1,
     "framework_count": 5,
@@ -37,7 +37,7 @@
     {
       "language": "Python",
       "files": 7,
-      "bytes": 4975,
+      "bytes": 5130,
       "percentage": 100.0
     }
   ],
@@ -168,7 +168,8 @@
     ],
     "top_level_dirs": [
       ".github",
-      "app"
+      "app",
+      "docs"
     ],
     "candidates": {
       "Layered Architecture": 0.33
@@ -196,9 +197,24 @@
         "routers.py",
         "schemas.py"
       ]
+    },
+    "docs": {
+      "__files__": [
+        "PROJECT_OVERVIEW.md",
+        "PROJECT_STRUCTURE.md",
+        "README.md",
+        "SETUP.md",
+        "TECH_STACK.md",
+        "repository_knowledge.json"
+      ]
     }
   },
   "documentation": [
+    "docs/PROJECT_OVERVIEW.md",
+    "docs/PROJECT_STRUCTURE.md",
+    "docs/README.md",
+    "docs/SETUP.md",
+    "docs/TECH_STACK.md",
     "requirement.txt"
   ],
   "extensions": {}
