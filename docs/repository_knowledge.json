@@ -1,0 +1,205 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-30T15:21:28.435197+00:00",
+  "metadata": {
+    "name": "course-enrollment",
+    "root_path": "/home/runner/work/course-enrollment/course-enrollment",
+    "is_git_repo": true,
+    "remote_url": "https://github.com/karthik-2101/course-enrollment",
+    "default_branch": "main",
+    "current_branch": "main",
+    "latest_commit": {
+      "sha": "627fe2c57af6bb5dd78b8bbc080528952c4f33ec",
+      "short_sha": "627fe2c",
+      "message": "modified the router file",
+      "author": "karthik-2101",
+      "email": "karthik.e@mitrahsoft.in",
+      "date": "2026-07-30T20:50:12+05:30"
+    },
+    "tags": []
+  },
+  "statistics": {
+    "total_files": 10,
+    "total_size_bytes": 6770,
+    "total_directories": 3,
+    "files_by_category": {
+      "ci_cd": 1,
+      "configuration": 1,
+      "source_code": 7,
+      "documentation": 1
+    },
+    "language_count": 1,
+    "framework_count": 5,
+    "dependency_count": 6,
+    "primary_language": "Python"
+  },
+  "languages": [
+    {
+      "language": "Python",
+      "files": 7,
+      "bytes": 5077,
+      "percentage": 100.0
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Flask",
+      "category": "backend",
+      "language": "Python",
+      "confidence": 0.9,
+      "evidence": [
+        "dependency 'flask'",
+        "import 'flask'"
+      ]
+    },
+    {
+      "name": "SQLAlchemy",
+      "category": "orm",
+      "language": "Python",
+      "confidence": 0.9,
+      "evidence": [
+        "dependency 'sqlalchemy'"
+      ]
+    },
+    {
+      "name": "Flask-SQLAlchemy",
+      "category": "orm",
+      "language": "Python",
+      "confidence": 0.9,
+      "evidence": [
+        "dependency 'flask_sqlalchemy'",
+        "import 'flask_sqlalchemy'"
+      ]
+    },
+    {
+      "name": "Marshmallow",
+      "category": "serialization",
+      "language": "Python",
+      "confidence": 0.9,
+      "evidence": [
+        "dependency 'marshmallow'",
+        "dependency 'flask-marshmallow'",
+        "import 'flask_marshmallow'"
+      ]
+    },
+    {
+      "name": "Flask-Migrate",
+      "category": "migration",
+      "language": "Python",
+      "confidence": 0.9,
+      "evidence": [
+        "dependency 'flask-migrate'"
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "flask",
+      "version": "",
+      "scope": "production",
+      "manager": "pip",
+      "source_file": "requirement.txt"
+    },
+    {
+      "name": "pyodbc",
+      "version": "",
+      "scope": "production",
+      "manager": "pip",
+      "source_file": "requirement.txt"
+    },
+    {
+      "name": "flask_sqlalchemy",
+      "version": "",
+      "scope": "production",
+      "manager": "pip",
+      "source_file": "requirement.txt"
+    },
+    {
+      "name": "flask-marshmallow",
+      "version": "",
+      "scope": "production",
+      "manager": "pip",
+      "source_file": "requirement.txt"
+    },
+    {
+      "name": "marshmallow-sqlalchemy",
+      "version": "",
+      "scope": "production",
+      "manager": "pip",
+      "source_file": "requirement.txt"
+    },
+    {
+      "name": "flask-migrate",
+      "version": "",
+      "scope": "production",
+      "manager": "pip",
+      "source_file": "requirement.txt"
+    }
+  ],
+  "configurations": [
+    {
+      "kind": "ci",
+      "path": ".github/workflows/repository-docs.yml",
+      "metadata": {
+        "provider": "github_actions"
+      }
+    }
+  ],
+  "environment_variables": [],
+  "build_tools": [],
+  "deployment": {
+    "containerized": false,
+    "orchestration": [],
+    "iac": []
+  },
+  "ci_cd": {
+    "providers": [
+      "GitHub Actions"
+    ]
+  },
+  "structure": {
+    "pattern": "Layered Architecture",
+    "confidence": 0.33,
+    "evidence": [
+      "found 'models'",
+      "found 'schemas'",
+      "found 'routers'",
+      "found 'database'"
+    ],
+    "top_level_dirs": [
+      ".github",
+      "app"
+    ],
+    "candidates": {
+      "Layered Architecture": 0.33
+    }
+  },
+  "directory_tree": {
+    ".github": {
+      "workflows": {
+        "__files__": [
+          "repository-docs.yml"
+        ]
+      }
+    },
+    "__files__": [
+      ".gitignore",
+      "config.py",
+      "main.py",
+      "requirement.txt"
+    ],
+    "app": {
+      "__files__": [
+        "__init__.py",
+        "database.py",
+        "models.py",
+        "routers.py",
+        "schemas.py"
+      ]
+    }
+  },
+  "documentation": [
+    "requirement.txt"
+  ],
+  "extensions": {}
+}
