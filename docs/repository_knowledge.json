@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-30T15:21:28.435197+00:00",
+  "generated_at": "2026-07-31T06:01:50.549757+00:00",
   "metadata": {
     "name": "course-enrollment",
     "root_path": "/home/runner/work/course-enrollment/course-enrollment",
@@ -9,24 +9,24 @@
     "default_branch": "main",
     "current_branch": "main",
     "latest_commit": {
-      "sha": "627fe2c57af6bb5dd78b8bbc080528952c4f33ec",
-      "short_sha": "627fe2c",
-      "message": "modified the router file",
+      "sha": "9038568b91c8da01b2dfcf212bc9e48cf2490eb7",
+      "short_sha": "9038568",
+      "message": "Merge branch 'main' of https://github.com/karthik-2101/course-enrollment",
       "author": "karthik-2101",
       "email": "karthik.e@mitrahsoft.in",
-      "date": "2026-07-30T20:50:12+05:30"
+      "date": "2026-07-31T11:30:45+05:30"
     },
     "tags": []
   },
   "statistics": {
-    "total_files": 10,
-    "total_size_bytes": 6770,
-    "total_directories": 3,
+    "total_files": 16,
+    "total_size_bytes": 15111,
+    "total_directories": 4,
     "files_by_category": {
       "ci_cd": 1,
-      "configuration": 1,
+      "configuration": 2,
       "source_code": 7,
-      "documentation": 1
+      "documentation": 6
     },
     "language_count": 1,
     "framework_count": 5,
@@ -37,7 +37,7 @@
     {
       "language": "Python",
       "files": 7,
-      "bytes": 5077,
+      "bytes": 4893,
       "percentage": 100.0
     }
   ],
@@ -168,7 +168,8 @@
     ],
     "top_level_dirs": [
       ".github",
-      "app"
+      "app",
+      "docs"
     ],
     "candidates": {
       "Layered Architecture": 0.33
@@ -196,9 +197,24 @@
         "routers.py",
         "schemas.py"
       ]
+    },
+    "docs": {
+      "__files__": [
+        "PROJECT_OVERVIEW.md",
+        "PROJECT_STRUCTURE.md",
+        "README.md",
+        "SETUP.md",
+        "TECH_STACK.md",
+        "repository_knowledge.json"
+      ]
     }
   },
   "documentation": [
+    "docs/PROJECT_OVERVIEW.md",
+    "docs/PROJECT_STRUCTURE.md",
+    "docs/README.md",
+    "docs/SETUP.md",
+    "docs/TECH_STACK.md",
     "requirement.txt"
   ],
   "extensions": {}
